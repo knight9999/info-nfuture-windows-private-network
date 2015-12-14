@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+xmlns:android="htp://schemas.android.com/apk/res/android"
+id="info-nfuture-windows-private-network" version="1.0.0">
+  <name>WindowsPrivateNetwork</name>
+  <description>WindowsPerivateNetwork</description>
+  <license>MIT</license>
+  <platform name="windows">
+    <config-file target="package.appxmanifest" parent="/Package/Capabilities">
+      <Capability Name="privateNetworkClientServer" />
+    </config-file>
+  </platform>
+</plugin>
+
